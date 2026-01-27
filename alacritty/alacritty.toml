@@ -1,0 +1,17 @@
+[font]
+size = 13.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[keyboard]
+bindings = [
+    {key = "Left", mods = "Alt", chars = "\u001bb"},
+    {key = "Right", mods = "Alt", chars = "\u001bf"},
+    {key = "Left", mods = "Command", chars = "\u0001"},
+    {key = "Right", mods = "Command", chars = "\u0005"},
+    {key = "Up", mods = "Shift", chars = "ScrollLineUp"},
+    {key = "Down", mods = "Shift", chars = "ScrollLineDown"},
+    {key = "Back", mods = "Command", chars = "\u0015"},
+]
