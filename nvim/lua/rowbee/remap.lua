@@ -1,4 +1,8 @@
+-- <leader>pv toggles nvim-tree (see lua/plugins/nvim-tree.lua)
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
-
+-- tmux-sessionizer keybindings
+--vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+--vim.keymap.set("n", "<M-h>", "<cmd>silent !tmux neww tmux-sessionizer -s 0<CR>")
+--vim.keymap.set("n", "<M-t>", "<cmd>silent !tmux neww tmux-sessionizer -s 1<CR>")
+--vim.keymap.set("n", "<M-n>", "<cmd>silent !tmux neww tmux-sessionizer -s 2<CR>")
+--vim.keymap.set("n", "<M-s>", "<cmd>silent !tmux neww tmux-sessionizer -s 3<CR>")

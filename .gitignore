@@ -1,0 +1,4 @@
+*.bak
+.nvimlog
+.DS_Store
+*.swp

@@ -1,5 +1,6 @@
 [font]
 size = 13.0
+normal = { family = "MesloLGM Nerd Font", style = "Regular" }
 
 [scrolling]
 history = 10000
@@ -11,7 +12,8 @@ bindings = [
     {key = "Right", mods = "Alt", chars = "\u001bf"},
     {key = "Left", mods = "Command", chars = "\u0001"},
     {key = "Right", mods = "Command", chars = "\u0005"},
-    {key = "Up", mods = "Shift", chars = "ScrollLineUp"},
-    {key = "Down", mods = "Shift", chars = "ScrollLineDown"},
+    {key = "Up", mods = "Shift", action = "ScrollLineUp"},
+    {key = "Down", mods = "Shift", action = "ScrollLineDown"},
     {key = "Back", mods = "Command", chars = "\u0015"},
+    {key = "Return", mods = "Shift", chars = "\u001B\r"},
 ]

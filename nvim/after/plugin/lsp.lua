@@ -1,0 +1,1 @@
+-- Bemol configuration moved to after/ftplugin/java.lua
